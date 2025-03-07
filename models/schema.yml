@@ -1,0 +1,13 @@
+version: 2
+ 
+sources:
+  - name: company_db.hr
+    schema: company_db.hr
+    database: company_db
+    tables:
+      - name: company_db.hr.employees
+        identifier: company_db.hr.employees
+      - name: department_db.hr.departments
+        identifier: department_db.hr.departments
+ 
+ 
