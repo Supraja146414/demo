@@ -1,0 +1,11 @@
+version: 2
+ 
+sources:
+  - name: prod
+    schema: prod
+    database: pr_db
+    tables:
+      - name: department
+        identifier: department
+      - name: employees
+        identifier: employees
