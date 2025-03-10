@@ -1,0 +1,1 @@
+select d.department_name,d.department_id,e.salary from departments d inner join employees e on d.department_id = e.department_id
