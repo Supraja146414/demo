@@ -1,1 +1,1 @@
-select d.department_name,d.department_id,e.salary from departments d inner join employees e on d.department_id = e.department_id
+select d.department_name,d.department_id,e.salary from pr_db.prod.departments d inner join pr_db.prod.employees e on d.department_id = e.department_id
