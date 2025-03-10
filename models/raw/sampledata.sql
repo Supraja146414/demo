@@ -9,4 +9,4 @@ from --{{ source('prod','departments')}} d
 prod.departments d
 ----inner join {{ source('prod','employees')}} e 
 inner join prod.employees e
-on d.department_id = e.department_id }} 
+on d.department_id = e.department_id 
