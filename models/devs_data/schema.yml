@@ -5,7 +5,7 @@ sources:
     schema: prod
     database: pr_db
     tables:
-      - name: department
-        identifier: department
+      - name: departments
+        identifier: departments
       - name: employees
         identifier: employees
