@@ -1,4 +1,4 @@
-{{ config(materialized='view' , transient=false, schema='sample_dbs' )}}
+{{ config(materialized='view' , transient=false, schema='prod' )}}
 
 
 
