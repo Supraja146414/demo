@@ -1,0 +1,11 @@
+version: 2
+ 
+sources:
+  - name: SAMPLE_SCHEMA
+    schema: SAMPLE_SCHEMA
+    database: SAMPLE_DB1
+    tables:
+      - name: CUSTOMER
+        identifier: CUSTOMER
+      - name: PRODUCT
+        identifier: PRODUCT 
